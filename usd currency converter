@@ -1,0 +1,28 @@
+print('The USD calculator can only switch to Euros,Rupees,Yen,Yuan,Pesos')
+switch = input('What is the currency you are converting too: ').lower() 
+money = (float(input('How much money do you have of your current currency: ')))
+if switch == "euro" :
+    new_money = money * 0.95
+    print(f"You have {new_money} euros.")
+    exit()
+elif switch == "rupee":
+    new_money = money * 84.81
+    print(f"You have {new_money} rupees.")
+    exit()
+elif switch == "yen":
+    new_money = money * 153.86
+    print(f"You have {new_money} Yen.")
+    exit()
+elif switch == "yuan":
+    new_money = money * 7.28
+    print(f"You have {new_money} Yuan.")
+    exit()
+elif switch == "pesos":
+    new_money = money * 20.14
+    print(f"You have {new_money} Pesos.")
+    exit()
+elif switch == "Yen":
+    new_money = money * 153.86
+    print(f"You have {new_money} Yen.")
+    exit()
+
